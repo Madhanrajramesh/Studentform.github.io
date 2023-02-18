@@ -42,6 +42,7 @@ input{
   margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid rgb(14, 13, 13);
+text-align: center;
 }
 select {
   width: 23%;
@@ -134,16 +135,26 @@ span{
 
 @media screen and (max-width: 780px){
 form{
-  width: 367px;
+  width: 352px;
   top: -17px;
+  height: 430px;
+  padding: 0px 0px 44px;
 }
-
+label {
+  padding: 16px 3px;
+  display: inline-block;
+  margin-right: 26px;
+  font-size: 14px;
+}
 h6{
   margin-left: 58px;
   position: relative;
   top: 589px;
 }
-
+input, type {
+  width: 255px;
+  padding: 6px;
+}
 .form-data-container{
   width: 355px;
   top: 64px;
@@ -152,7 +163,11 @@ h6{
 .form-data-container p{
   font-size: 12px;
 }
-
+select {
+  padding: 6px;
+  width: 100px;
+  text-align: center;
+}
 .form-data-container img{
   width: 144px;
   height: 144px;
@@ -171,5 +186,12 @@ h6{
   border-bottom: 2px solid black;
 
 }
+#photo, type {
+  padding: 6px;
+  font-size: 11px;
+  width: 191px;
+}
+
+
 
 }
